@@ -1,0 +1,499 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}| Rates{% endblock %}
+{% block content %}
+<div class="pricing-2" style="background-image: url('{% static 'img/home/rktxartwater.jpg' %}')">
+      <br>
+      <div class="container">
+        <div class="row justify-content-center">
+            <img class="img-rounded img-container"  src="{% static 'img/home/flexablepriving.png' %}">
+        </div>
+          <br>
+          <div class="row justify-content-center">
+            <div class="choose-plan">
+              <ul class="nav nav-pills nav-pills-navigation " role="tablist">
+                <li class="nav-item">
+                  <a class="nav-link active show bg-dark" data-toggle="pill" href="#daily" role="tab" aria-selected="true">Daily</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link bg-dark" data-toggle="pill" href="#weekly" role="tab" aria-selected="false">Weekly</a>
+                </li>
+                  <li class="nav-item">
+                  <a class="nav-link bg-dark" data-toggle="pill" href="#monthly" role="tab" aria-selected="false">Monthly </a>
+                </li>
+              </ul>
+            </div>
+        </div>
+          <br>
+          <div class="row justify-content-center">
+            <br>
+              <center><p class="description badge-pill badge-light"><font color="black"><b>Offering the most competitive rates in Rockport with the quality you deserve!</b></font></p></center>
+          </div>
+          <div class="ml-auto">
+            <div class="tab-content text-center">
+              <div class="tab-pane active show" id="daily" role="tabpanel">
+                <div class="space-top"></div>
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="card card-pricing" data-background="image" style="background-image: url('{% static 'img/home/tentcard.jpeg' %}')">
+                      <div class="card-body">
+                        <h6 class="card-category text-primary">Tent Camping <i class="fas fa-campground"></i></h6>
+                        <h1 class="card-title">$10/Night</h1>
+                        <ul>
+                          <li>
+                            <b>1</b> Camping Spot & Car</li>
+                          <li>
+                             Community Center</li>
+                          <li>
+                            laundry Room</li>
+                          <li>
+                            Pool</li>
+                        </ul>
+                        <a href="#pablo" class="btn btn-warning btn-round">Book Now!</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card card-pricing" data-background="image" style="background-image: url('{% static 'img/home/rvcard.jpg' %}')">
+                      <div class="card-body">
+                        <h6 class="card-category text-success"><i class="fab fa-free-code-camp"></i> Basic RV Package</h6>
+                        <h1 class="card-title">$30/Night</h1>
+                        <ul>
+                          <li>
+                            <b>1</b> Small RV Slot (< 22')</li>
+                          <li>
+                            Direct Sewage Line</li>
+                          <li>
+                            <b>HTML</b> Elements</li>
+                          <li>
+                            <b>24</b> Page Examples</li>
+                        </ul>
+                        <a href="#pablo" class="btn btn-warning btn-round">Book Now!</a>
+                      </div>
+                    </div>
+                  </div>
+                    <div class="col-md-4">
+                    <div class="card card-pricing" data-background="image" style="background-image: url('{% static 'img/home/deluxrvcard.jpeg' %}')">
+                      <div class="card-body">
+                        <h6 class="card-category text-success">Premium RV Package</h6>
+                        <h1 class="card-title">$59/Night</h1>
+                        <ul>
+                          <li>
+                            <b>5</b> Developer</li>
+                          <li>
+                            <b>129+</b> Components</li>
+                          <li>
+                            <b>HTML</b> Elements</li>
+                          <li>
+                            <b>24</b> Page Examples</li>
+                        </ul>
+                        <a href="#pablo" class="btn btn-warning btn-round">Book Now!</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="weekly" role="tabpanel">
+                <div class="space-top"></div>
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="card card-pricing" data-background="image" style="background-image: url('{% static 'img/home/tentcard.jpeg' %}')">
+                      <div class="card-body">
+                        <h6 class="card-category text-warning">Tent Camping <i class="fas fa-campground"></i></h6>
+                        <h1 class="card-title">$30/Week</h1>
+                        <ul>
+                          <li>
+                            <b>5+</b> Developers</li>
+                          <li>
+                            <b>199+</b> Components</li>
+                          <li>
+                            <b>HTML</b> Elements</li>
+                          <li>
+                            <b>34</b> Page Examples</li>
+                        </ul>
+                        <a href="https://travel.camping.com/travel.camping.com/Search-by-Map/Woody-Acres/Reservations" class="btn btn-warning btn-round">Book Now!</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card card-pricing" data-background="image" style="background-image: url('{% static 'img/home/rvcard.jpg' %}')">
+                      <div class="card-body">
+                        <h6 class="card-category text-success"><i class="fab fa-free-code-camp"></i> Basic RV Package</h6>
+                        <h1 class="card-title">$248/Week</h1>
+                        <ul>
+                          <li>
+                            <b>15</b> Developer</li>
+                          <li>
+                            <b>229+</b> Components</li>
+                          <li>
+                            <b>HTML</b> Elements</li>
+                          <li>
+                            <b>44</b> Page Examples</li>
+                        </ul>
+                        <a href="#pablo" class="btn btn-warning btn-round">Book Now!</a>
+                      </div>
+                    </div>
+                  </div>
+                    <div class="col-md-4">
+                    <div class="card card-pricing" data-background="image" style="background-image: url('{% static 'img/home/deluxrvcard.jpeg' %}')">
+                      <div class="card-body">
+                        <h6 class="card-category text-success">Premium RV Package</h6>
+                        <h1 class="card-title">$272/Week</h1>
+                        <ul>
+                          <li>
+                            <b>1</b> Developer</li>
+                          <li>
+                            <b>129+</b> Components</li>
+                          <li>
+                            <b>HTML</b> Elements</li>
+                          <li>
+                            <b>24</b> Page Examples</li>
+                        </ul>
+                        <a href="#pablo" class="btn btn-warning btn-round">Book Now!</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+                <div class="tab-pane" id="monthly" role="tabpanel">
+                <div class="space-top"></div>
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="card card-pricing" data-background="image" style="background-image: url('{% static 'img/home/rvcard.jpg' %}')">
+                      <div class="card-body">
+                        <h6 class="card-category text-warning"><i class="fab fa-free-code-camp"></i> Basic RV Package</h6>
+                        <h1 class="card-title">$422/Month</h1>
+                        <ul>
+                          <li>
+                            <b>5+</b> Developers</li>
+                          <li>
+                            <b>199+</b> Components</li>
+                          <li>
+                            <b>HTML</b> Elements</li>
+                          <li>
+                            <b>34</b> Page Examples</li>
+                        </ul>
+                        <a href="#pablo" class="btn btn-warning btn-round">Book Now!</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card card-pricing" data-background="image" style="background-image: url('{% static 'img/home/deluxrvcard.jpeg' %}')">
+                      <div class="card-body">
+                        <h6 class="card-category text-success">Premium RV Package</h6>
+                        <h1 class="card-title">$464/Month</h1>
+                        <ul>
+                          <li>
+                            <b>15</b> Developer</li>
+                          <li>
+                            <b>229+</b> Components</li>
+                          <li>
+                            <b>HTML</b> Elements</li>
+                          <li>
+                            <b>44</b> Page Examples</li>
+                        </ul>
+                        <a href="#pablo" class="btn btn-warning btn-round">Book Now!</a>
+                      </div>
+                    </div>
+                  </div>
+                    <div class="col-md-4">
+                    <div class="card card-pricing" data-background="image" style="background-image: url('{% static 'img/home/cabin.jpg' %}')">
+                      <div class="card-body">
+                        <h6 class="card-category text-success">Cabin Rental Unit</h6>
+                        <h1 class="card-title">$1,190/Month</h1>
+                        <ul>
+                          <li>
+                            <b>5</b> Developer</li>
+                          <li>
+                            <b>129+</b> Components</li>
+                          <li>
+                            <b>HTML</b> Elements</li>
+                          <li>
+                            <b>24</b> Page Examples</li>
+                        </ul>
+                        <a href="#pablo" class="btn btn-warning btn-round">Book Now!</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+  </div>
+<br>
+    <div class="container">
+    {% block content2 %} {% endblock %}
+    </div>
+<center><h1>January</h1></center>
+  <br>
+<div class="container">
+  <div class="row">
+    <div class="col card bg-secondary">
+      <center><font color="#ffd070"><b>Monday</b>
+
+<br>
+      <button type="button" class="btn btn-warning card-footer" data-container="body" data-toggle="popover" data-placement="bottom"
+              data-content="RV Slips Open: 15">
+  <font color="#f0f8ff"><b>01</b></font>
+</button>
+      </font> </center>
+
+    </div>
+    <div class="col card bg-secondary">
+      <center><font color="#ffd070"><b>Tuesday</b>
+         <br>
+      <button type="button" class="btn btn-warning card-footer" data-container="body" data-toggle="popover" data-placement="bottom"
+              data-content="RV Slips Open: 15">
+          <font color="#f0f8ff"><b>02</b></font>
+</button></font> </center>
+
+    </div>
+    <div class="col card bg-secondary">
+      <center><font color="#ffd070"><b>Wednesday</b>
+         <br>
+      <button type="button" class="btn btn-warning card-footer" data-container="body" data-toggle="popover" data-placement="bottom"
+              data-content="RV Slips Open: 15">
+          <font color="#f0f8ff"><b>03</b></font>
+</button></font> </center>
+
+    </div>
+    <div class="col card bg-secondary">
+      <center><font color="#ffd070"><b>Thursday</b>
+         <br>
+      <button type="button" class="btn btn-warning card-footer" data-container="body" data-toggle="popover" data-placement="bottom"
+              data-content="RV Slips Open: 15">
+          <font color="#f0f8ff"><b>04</b></font>
+</button></font> </center>
+
+    </div>
+    <div class="col card bg-secondary">
+      <center><font color="#ffd070"><b>Friday</b>
+         <br>
+      <button type="button" class="btn btn-warning card-footer" data-container="body" data-toggle="popover" data-placement="bottom"
+              data-content="RV Slips Open: 15">
+          <font color="#f0f8ff"><b>05</b></font>
+</button></font> </center>
+
+    </div>
+    <div class="col card bg-secondary">
+      <center><font color="#ffd070"><b>Saturday</b>
+         <br>
+      <button type="button" class="btn btn-warning card-footer" data-container="body" data-toggle="popover" data-placement="bottom"
+              data-content="RV Slips Open: 15">
+          <font color="#f0f8ff"><b>06</b></font>
+</button></font> </center>
+
+    </div>
+    <div class="col card bg-secondary">
+      <center><font color="#ffd070"><b>Sunday</b>
+         <br>
+      <button type="button" class="btn btn-warning card-footer" data-container="body" data-toggle="popover" data-placement="bottom"
+              data-content="RV Slips Open: 15">
+          <font color="#f0f8ff"><b>07</b></font>
+</button></font> </center>
+
+    </div>
+</div>
+  <div class="row">
+    <div class="col card bg-secondary">
+     <center><font color="#ffd070"><b>Monday</b>
+
+      <br>
+      <button type="button" class="btn btn-warning card-footer" data-container="body" data-toggle="popover" data-placement="bottom"
+              data-content="RV Slips Open: 15">
+          <font color="#f0f8ff"><b>08</b></font>
+</button></font> </center>
+
+    </div>
+    <div class="col card bg-secondary">
+      <center><font color="#ffd070"><b>Tuesday</b>
+        <br>
+      <button type="button" class="btn btn-warning card-footer" data-container="body" data-toggle="popover" data-placement="bottom"
+              data-content="RV Slips Open: 15">
+          <font color="#f0f8ff"><b>09</b></font>
+</button></font> </center>
+
+    </div>
+    <div class="col card bg-secondary">
+      <center><font color="#ffd070"><b>Wednesday</b>
+         <br>
+      <button type="button" class="btn btn-warning card-footer" data-container="body" data-toggle="popover" data-placement="bottom"
+              data-content="RV Slips Open: 15">
+          <font color="#f0f8ff"><b>10</b></font>
+</button></font> </center>
+
+    </div>
+    <div class="col card bg-secondary">
+      <center><font color="#ffd070"><b>Thursday</b>
+        <br>
+      <button type="button" class="btn btn-warning card-footer" data-container="body" data-toggle="popover" data-placement="bottom"
+              data-content="RV Slips Open: 15">
+          <font color="#f0f8ff"><b>11</b></font>
+</button></font> </center>
+
+    </div>
+    <div class="col card bg-secondary">
+      <center><font color="#ffd070"><b>Friday</b>
+         <br>
+      <button type="button" class="btn btn-warning card-footer" data-container="body" data-toggle="popover" data-placement="bottom"
+              data-content="RV Slips Open: 15">
+          <font color="#f0f8ff"><b>12</b></font>
+</button></font> </center>
+
+    </div>
+    <div class="col card bg-secondary">
+      <center><font color="#ffd070"><b>Saturday</b>
+         <br>
+      <button type="button" class="btn btn-warning card-footer" data-container="body" data-toggle="popover" data-placement="bottom"
+              data-content="RV Slips Open: 15">
+          <font color="#f0f8ff"><b>13</b></font>
+</button></font> </center>
+
+    </div>
+    <div class="col card bg-secondary">
+      <center><font color="#ffd070"><b>Sunday</b>
+        <br>
+         <button type="button" class="btn btn-warning card-footer" data-container="body" data-toggle="popover" data-placement="bottom"
+              data-content="RV Slips Open: 15">
+             <font color="#f0f8ff"><b>14</b></font>
+</button></font> </center>
+
+    </div>
+  </div>
+  <div class="row">
+    <div class="col card bg-secondary">
+     <center><font color="#ffd070"><b>Monday</b>
+<br>
+      <button type="button" class="btn btn-warning card-footer" data-container="body" data-toggle="popover" data-placement="bottom"
+              data-content="RV Slips Open: 15">
+          <font color="#f0f8ff"><b>15</b></font>
+</button></font> </center>
+
+    </div>
+    <div class="col card bg-secondary">
+      <center><font color="#ffd070"><b>Tuesday</b>
+        <br>
+         <button type="button" class="btn btn-warning card-footer" data-container="body" data-toggle="popover" data-placement="bottom"
+              data-content="RV Slips Open: 15">
+             <font color="#f0f8ff"><b>16</b></font>
+</button></font> </center>
+
+    </div>
+    <div class="col card bg-secondary">
+      <center><font color="#ffd070"><b>Wednesday</b>
+        <br>
+         <button type="button" class="btn btn-warning card-footer" data-container="body" data-toggle="popover" data-placement="bottom"
+              data-content="RV Slips Open: 15">
+             <font color="#f0f8ff"><b>17</b></font>
+</button></font> </center>
+
+    </div>
+    <div class="col card bg-secondary">
+      <center><font color="#ffd070"><b>Thursday</b>
+        <br>
+         <button type="button" class="btn btn-warning card-footer" data-container="body" data-toggle="popover" data-placement="bottom"
+              data-content="RV Slips Open: 15">
+             <font color="#f0f8ff"><b>18</b></font>
+</button></font> </center>
+
+    </div>
+    <div class="col card bg-secondary">
+      <center><font color="#ffd070"><b>Friday</b>
+        <br>
+         <button type="button" class="btn btn-warning card-footer" data-container="body" data-toggle="popover" data-placement="bottom"
+              data-content="RV Slips Open: 15">
+             <font color="#f0f8ff"><b>19</b></font>
+</button></font> </center>
+
+    </div>
+    <div class="col card bg-secondary">
+      <center><font color="#ffd070"><b>Saturday</b>
+        <br>
+         <button type="button" class="btn btn-warning card-footer" data-container="body" data-toggle="popover" data-placement="bottom"
+              data-content="RV Slips Open: 15">
+             <font color="#f0f8ff"><b>20</b></font>
+</button></font> </center>
+
+    </div>
+    <div class="col card bg-secondary">
+      <center><font color="#ffd070"><b>Sunday</b>
+        <br>
+         <button type="button" class="btn btn-warning card-footer" data-container="body" data-toggle="popover" data-placement="bottom"
+              data-content="RV Slips Open: 15">
+             <font color="#f0f8ff"><b>21</b></font>
+</button></font> </center>
+
+    </div>
+  </div>
+  <div class="row">
+    <div class="col card bg-secondary">
+     <center><font color="#ffd070"><b>Monday</b>
+<br>
+      <button type="button" class="btn btn-warning card-footer" data-container="body" data-toggle="popover" data-placement="bottom"
+              data-content="RV Slips Open: 15">
+          <font color="#f0f8ff"><b>22</b></font>
+</button></font> </center>
+
+    </div>
+    <div class="col card bg-secondary">
+      <center><font color="#ffd070"><b>Tuesday</b>
+        <br>
+         <button type="button" class="btn btn-warning card-footer" data-container="body" data-toggle="popover" data-placement="bottom"
+              data-content="RV Slips Open: 15">
+             <font color="#f0f8ff"><b>23</b></font>
+</button></font> </center>
+
+    </div>
+    <div class="col card bg-secondary">
+      <center><font color="#ffd070"><b>Wednesday</b>
+        <br>
+         <button type="button" class="btn btn-warning card-footer" data-container="body" data-toggle="popover" data-placement="bottom"
+              data-content="RV Slips Open: 15">
+             <font color="#f0f8ff"><b>24</b></font>
+</button></font> </center>
+
+    </div>
+    <div class="col card bg-secondary">
+      <center><font color="#ffd070"><b>Thursday</b>
+        <br>
+         <button type="button" class="btn btn-warning card-footer" data-container="body" data-toggle="popover" data-placement="bottom"
+              data-content="RV Slips Open: 15">
+             <font color="#f0f8ff"><b>25</b></font>
+</button></font> </center>
+
+    </div>
+    <div class="col card bg-secondary">
+      <center><font color="#ffd070"><b>Friday</b>
+        <br>
+         <button type="button" class="btn btn-warning card-footer" data-container="body" data-toggle="popover" data-placement="bottom"
+              data-content="RV Slips Open: 15">
+             <font color="#f0f8ff"><b>26</b></font>
+</button></font> </center>
+
+    </div>
+    <div class="col card bg-secondary">
+      <center><font color="#ffd070"><b>Saturday</b>
+        <br>
+         <button type="button" class="btn btn-warning card-footer" data-container="body" data-toggle="popover" data-placement="bottom"
+              data-content="RV Slips Open: 15">
+             <font color="#f0f8ff"><b>27</b></font>
+</button></font> </center>
+
+    </div>
+    <div class="col card bg-secondary">
+      <center><font color="#ffd070"><b>Sunday</b>
+        <br>
+         <button type="button" class="btn btn-warning card-footer" data-container="body" data-toggle="popover" data-placement="bottom"
+              data-content="RV Slips Open: 15">
+             <font color="#f0f8ff"><b>28</b></font>
+</button></font> </center>
+
+    </div>
+  </div>
+</div>
+
+  </div>
+
+</div>
+{% endblock %}
